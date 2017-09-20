@@ -31,11 +31,9 @@ git clone git://github.com/zsh-users/zsh-autosuggestions $ZSH_CUSTOM/plugins/zsh
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
 ```
 
-* Edit ~/.zshrc file to enable plugins and activate theme
+* Edit ~/.zshrc file to choose the environment (machine)
 
 ```
-POWERLEVEL9K_INSTALLATION_PATH=/mnt/PGP/homes/rhillje/.oh-my-zsh/custom/themes/powerlevel9k/powerlevel9k.zsh-theme
-ZSH_THEME="powerlevel9k/powerlevel9k"
-
-plugins=(git, zsh-autosuggestions, zsh-syntax-highlighting)
+# machine="cluster"
+# machine="local_mac"
 ```
